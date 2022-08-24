@@ -175,5 +175,8 @@ if(minAge <= age) {
 } else {
   console.log('enter');
 }
+
+// FIX - the code needs to check if age is greater than or equal to 21. Right now it's using smaller than or equal operator. Change to greater than or equal.
+
 */
 
