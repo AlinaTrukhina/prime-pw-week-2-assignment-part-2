@@ -74,10 +74,11 @@ console.log(secret)
 */
 
 // 3. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// First, we initialize variable 'isStudent' and set it to true, initialize variable 'age' and set it to 34, initialize variable 'zip' and set it to 55407.
+// Then check if both isStudent is true and age is higher than eighty thousand, and give that case a console output about being a student on the West Coast. Our zip is less than 80000 so we'd move to next code.
+// Then we check if isStudent is not true, or if they are under 30. Console would log 'What are your hobbies?' if either was true. Neither is true so no console output and code moves to next line.
+// Then we check if isStudent is true. This is true, so console logs 'Welcome to Prime!'. code exits.
+// Next line of code would log 'How about the weather?' if none of the above statements are true.
 
 //CODE
 /*
@@ -134,9 +135,11 @@ if (number >= 2) {
 // -- it is, so we set colorOne and colorTwo to 'purple'
 
 /*
-let colorOne = 'red';
+let colorOne = 'red'; 
 let colorTwo = 'blue';
 let mix = true;
+
+// FIX - colorOne is set to 'red' while instructions say it should be 'blue'. Update to 'blue'. colorTwo shold be set to 'red' but right now it is set to 'blue'. Update to 'red'.
 
 if (mix === true) {
   colorOne = 'purple';
@@ -151,7 +154,10 @@ if (mix === true) {
 let temp = 40;
 const time = 4;
 
-if (temp > 39 || time >= 4) {
+if (temp > 39 || time >= 4) { 
+
+// FIX instructions should say the code should check if both conditions are true, but currently code checks if either is true.
+
   console.log('throw away the food!');
 }
 */
