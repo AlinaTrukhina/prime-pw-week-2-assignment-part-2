@@ -156,7 +156,7 @@ const time = 4;
 
 if (temp > 39 || time >= 4) { 
 
-// FIX instructions should say the code should check if both conditions are true, but currently code checks if either is true.
+// FIX instructions say the code should check if both conditions are true, but currently code checks if either is true.  Update the conditional "||" to "&&".
 
   console.log('throw away the food!');
 }
