@@ -146,6 +146,10 @@ if (mix === true) {
 }
 */
 
+// FIX - instructions say that colorTwo needs to be set to 'purple' if mix is true. 
+// Add the following line directly after "colorOne = 'purple'":
+// colorTwo = 'purple';
+
 //5. We start with two variables -- temp is set to 40 and time is set to 4.
 // We check if temp is higher than 39 and if time is greater or equal to  4 
 // -- they are so we console.log 'throw away the food!'
@@ -176,7 +180,10 @@ if(minAge <= age) {
   console.log('enter');
 }
 
-// FIX - the code needs to check if age is greater than or equal to 21. Right now it's using smaller than or equal operator. Change to greater than or equal.
+// FIX - currently the if statement if age is larger than minAge, console will log 'no entry'.
+// Change the conditional to greater than or equal. 
+// if statement will be:
+// if(minAge >= age)
 
 */
 
